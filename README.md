@@ -1,4 +1,8 @@
-![Video](https://github.com/fizzzzaaa/spin_bottle/blob/main/bottle%20spin.mp4)
+1
+
+https://github.com/user-attachments/assets/12e170d3-d6d7-41d2-919d-89d131196f85
+
+
 
 ![WhatsApp Image 2024-09-30 at 23 16 38_bee1fca3](https://github.com/user-attachments/assets/5a41a4c9-dc40-4393-9a7b-06cce68fca33)
 
