@@ -26,31 +26,6 @@ This Xylophone app is a simple musical app built using Flutter, where users can 
 - **Global Theme**: A global theme button is included for adjusting the app's appearance.
 - **Responsive Design**: The layout adjusts according to the screen size.
 
-## Screenshots
-
-![Xylophone App Screenshot](screenshot.png)
-
-## How to Run the App
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/xylophone-app.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd xylophone-app
-   ```
-
-3. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
-
-4. Run the app:
-   ```bash
-   flutter run
-   ```
 
 
 
@@ -70,7 +45,4 @@ Feel free to open a pull request if you'd like to contribute to improving the ap
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-You can update the GitHub URL, add any specific sections like installation instructions for specific platforms, and include any customizations you've made to the app, like the layout or theme.
+This project is licensed under the MIT License.
