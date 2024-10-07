@@ -1,4 +1,4 @@
-# bottle_spin_game
+# spinbottle
 
 A new Flutter project.
 

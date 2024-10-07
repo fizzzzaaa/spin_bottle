@@ -1,4 +1,4 @@
-package com.example.bottle_spin_game
+package com.example.spinbottle
 
 import io.flutter.embedding.android.FlutterActivity
 
