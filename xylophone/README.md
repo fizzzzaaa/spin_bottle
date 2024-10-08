@@ -9,9 +9,8 @@ The Customized Xylophone App is a fun and interactive musical instrument built w
 ## Features
 
 - **Interactive Keys**: Play musical notes by tapping the colorful keys.
-- **Color Customization**: Long press on any key to open a color picker and change the key's color.
-- **Sound Customization**: Double-tap any key to choose from a variety of sound options.
-- **Volume Control**: Adjust the volume of the sounds through a slider in the app bar.
+- **Color Customization**: Press on a button to open a color picker and change the key's color.
+- **Sound Customization**: Press a button to choose from a variety of sound options.
 - **Responsive Design**: Optimized for various screen sizes, ensuring a smooth user experience on all devices.
 
 ## Screenshots
@@ -30,7 +29,7 @@ https://github.com/user-attachments/assets/843dddd5-11b1-466e-8a28-909048dee69b
 ## Usage
 
 - Tap on the colored keys to play notes.
-- Long press on any key to change its color using the color picker.
+- Press a button to change its color using the color picker.
 - Press a button to change its associated sound.
 
 
