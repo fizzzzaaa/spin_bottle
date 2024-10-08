@@ -1,14 +1,14 @@
 
 
-# Spin the Bottle Game 🎉
+# Spin the Bottle Game 
 
 A fun and engaging Flutter-based **Spin the Bottle** game where players can add up to 10 names and enjoy a bottle spinning to randomly select one player, followed by a challenge.
 
-## 📝 Overview
+##  Overview
 
 The **Spin the Bottle Game** is a digital version of the popular party game. Players enter names, spin the bottle, and the selected player is assigned a fun challenge. Perfect for quick, enjoyable rounds with friends and family.
 
-## ✨ Features
+##  Features
 
 - Add up to 10 player names.
 - Interactive bottle spinning action.
@@ -24,17 +24,17 @@ The **Spin the Bottle Game** is a digital version of the popular party game. Pla
 
 https://github.com/user-attachments/assets/92140209-3e07-406c-8420-edb65153aa1d
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **Flutter**: Framework for building the app.
 - **Dart**: Programming language for the app logic.
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 - Add more customizable challenges.
 - Option to remove or edit player names mid-game.
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
