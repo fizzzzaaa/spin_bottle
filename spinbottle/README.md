@@ -9,19 +9,26 @@
 https://github.com/user-attachments/assets/92140209-3e07-406c-8420-edb65153aa1d
 
 
-# spinbottle
+# Spin the Bottle Game 🎉
 
-A new Flutter project.
+A fun and simple **Spin the Bottle** game where you can add up to 10 player names, spin the bottle, and see who it lands on, along with a challenge for the selected player!
 
-## Getting Started
+## 🎮 Game Features
 
-This project is a starting point for a Flutter application.
+- **Add Player Names:** Input up to 10 player names on the home screen.
+- **Navigate to Game Screen:** Press the **Start Game** button to move to the bottle spinning screen.
+- **Spin the Bottle:** Watch the bottle spin and randomly land on one of the names.
+- **Display Result:** The selected player's name is shown with a fun challenge.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 How to Play
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Home Screen:**
+   - Enter up to 10 player names in the input fields.
+   - Press the **Start Game** button to begin the game.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. **Game Screen:**
+   - A bottle appears with player names arranged in a circular pattern around it.
+   - Press the **Spin Bottle** button to spin the bottle.
+   - The bottle stops on a random name.
+   - The selected player's name is displayed at the bottom along with a challenge.
+
