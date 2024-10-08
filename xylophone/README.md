@@ -25,8 +25,7 @@ The Customized Xylophone App is a fun and interactive musical instrument built w
 ![WhatsApp Image 2024-10-05 at 19 03 29_c33b9fe5](https://github.com/user-attachments/assets/234585cd-5a27-42c5-aea6-8176dfa0e7f7)
 
 ## Screen Recording
-
-[[Watch the App in Action](https://github.com/user-attachments/assets/cd21ac35-c729-4824-a76a-6db87c3cd958)](https://github.com/user-attachments/assets/843dddd5-11b1-466e-8a28-909048dee69b)
+https://github.com/user-attachments/assets/843dddd5-11b1-466e-8a28-909048dee69b
 
 ## Usage
 
