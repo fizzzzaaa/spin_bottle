@@ -11,9 +11,7 @@ https://github.com/user-attachments/assets/843dddd5-11b1-466e-8a28-909048dee69b
 ![WhatsApp Image 2024-10-05 at 19 03 29_c33b9fe5](https://github.com/user-attachments/assets/234585cd-5a27-42c5-aea6-8176dfa0e7f7)
 
 
-Here’s a basic `README.md` file template for your xylophone app. You can adjust the content as needed:
 
-```markdown
 # Xylophone App
 
 This Xylophone app is a simple musical app built using Flutter, where users can tap on colored keys to play different musical notes.
