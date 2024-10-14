@@ -2,13 +2,11 @@
 
 ![WhatsApp Image 2024-10-14 at 23 08 05_d69140cd](https://github.com/user-attachments/assets/67513a81-ccd1-4705-beef-163dc23520a3)
 
-
-
-
-
 ![WhatsApp Image 2024-10-14 at 23 08 05_cff6dd7f](https://github.com/user-attachments/assets/5085b9b5-48f1-41e5-b1da-c4b314b0be6f)
 
-https://github.com/user-attachments/assets/dacb72a0-1820-4265-b196-b6ac7dbb473b
+https://github.com/user-attachments/assets/e30aa696-ca60-44d7-9206-8abf6dd54729
+
+
 
 # quiz_app
 
