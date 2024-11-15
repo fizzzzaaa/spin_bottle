@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'IconText.dart';
 import 'ContainerFile.dart';
+import 'constFile.dart';
+
 class RefactorTextandIcon extends StatelessWidget {
   RefactorTextandIcon({required this.iconData,required this.label});
   final IconData iconData;
@@ -14,17 +16,16 @@ class RefactorTextandIcon extends StatelessWidget {
         children: [
           Icon(
             iconData,
-            size: 80.0,
+            size:  80.0,
           ),
           SizedBox(
             height: 15.0,
           ),
-          Text(label,style: TextStyle(
-
-              fontSize: 18.0
-          ))
-        ]
-
+          Text(
+              label,
+              style: KLabelStyle,
+          ),
+        ],
     );
   }
 }

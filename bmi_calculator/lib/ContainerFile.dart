@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class RepeatRefactorCode extends StatelessWidget {
+  RepeatRefactorCode({required this.colors, this.cardwidget, required  this.onPressed});
 
-  final VoidCallback onPressed;
   final Color colors;
   final Widget? cardwidget;
-  RepeatRefactorCode({required this.colors, this.cardwidget, required  this.onPressed});
+  final VoidCallback onPressed;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(

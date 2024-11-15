@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'IconText.dart';
 import 'ContainerFile.dart';
+import 'constFile.dart';
 
 const activeColor = Color(0xFF1D1E33);
 const deActivColor = Color(0xFF111328);
@@ -64,6 +65,11 @@ class InputPageState extends State<InputPage> {
           ),
           Expanded(
             child:RepeatRefactorCode(colors:Color(0xFF1D1E33), onPressed: () {  },
+            cardwidget: Column(
+              children:<Widget> [
+                Text('Height',style: KLabelStyle,),
+              ],
+            ),
             ),
           ),
           Expanded(
