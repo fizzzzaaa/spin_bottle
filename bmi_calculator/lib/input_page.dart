@@ -29,7 +29,7 @@ class InputPageState extends State<InputPage> {
                 Expanded(
                   child: RepeatRefactorCode(
 
-                 
+
       cardwidget: RefactorTextandIcon(
                       iconData:FontAwesomeIcons.person,
                       label: "Male",
