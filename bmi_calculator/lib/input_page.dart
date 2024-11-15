@@ -121,9 +121,28 @@ class InputPageState extends State<InputPage> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-
+                            RoundIcon(
+                              iconData: FontAwesomeIcons.minus,
+                              onPress: () {
+                                setState(() {
+                                  sliderWeight--;
+                                });
+                              },
+                            ),
+                            SizedBox(
+                              width: 10.0,
+                            ), // Add the missing comma here
+                            RoundIcon(
+                              iconData: FontAwesomeIcons.plus,
+                              onPress: () {
+                                setState(() {
+                                  sliderWeight++;
+                                });
+                              },
+                            ),
                           ],
                         ),
+
                       ],
                     ),
                   ),
@@ -141,4 +160,22 @@ class InputPageState extends State<InputPage> {
   }
 }
 
-class
+class RoundIcon extends StatelessWidget{
+  RoundIcon({required this.iconData, required this.onPress});
+final IconData iconData;
+final VoidCallback onPress;
+Widget build(BuildContext context){
+    return RawMaterialButton(
+        child: Icon(iconData),
+        onPressed: onPress,
+      elevation: 6.0,
+      constraints:  BoxConstraints.tightFor(
+        height: 40.0,
+        width: 40.0,
+      ),
+      shape: CircleBorder(),
+      fillColor: Color(0xFF4C4F5E),
+    );
+  }
+
+}
