@@ -32,7 +32,7 @@ class InputPageState extends State<InputPage> {
 
       cardwidget: RefactorTextandIcon(
                       iconData:FontAwesomeIcons.person,
-                      label: "Male",
+                      label: "MALE",
                     ),
                   ),
 
@@ -47,7 +47,7 @@ class InputPageState extends State<InputPage> {
                     colors:selectGender==Gender.female?activeColor:deActivColor,
                     cardwidget: RefactorTextandIcon(
                       iconData:FontAwesomeIcons.female,
-                      label: "Female",
+                      label: "FEMALE",
                     ),),
 
 
