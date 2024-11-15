@@ -18,6 +18,7 @@ class InputPageState extends State<InputPage> {
   gender? selectGender;
   int sliderHeight=180;
   int sliderWeight=60;
+  int sliderAge=20;
 
   @override
   Widget build(BuildContext context) {
@@ -149,9 +150,60 @@ class InputPageState extends State<InputPage> {
                 ),
                 Expanded(
                   child: RepeatRefactorCode(colors:Color(0xFF1D1E33), onPressed: () {  },
+                    cardwidget: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        Text('Age',
+                          style: KLabelStyle,),
+                        Text(
+                          sliderAge.toString(),
+                          style: HLablelStyle,
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            RoundIcon(
+                              iconData: FontAwesomeIcons.minus,
+                              onPress: () {
+                                setState(() {
+                                  sliderAge--;
+                                });
+                              },
+                            ),
+                            SizedBox(
+                              width: 10.0,
+                            ), // Add the missing comma here
+                            RoundIcon(
+                              iconData: FontAwesomeIcons.plus,
+                              onPress: () {
+                                setState(() {
+                                  sliderAge++;
+                                });
+                              },
+                            ),
+                          ],
+                        ),
+
+                      ],
+                    ),
                   ),
                 ),
+
               ],
+            ),
+          ),
+          GestureDetector(
+            onTap: (){
+
+            },
+            child: Container(
+              child: Center(
+              child: Text('Calculate',style: CLabelStyle,),
+                ),
+              color: Color(0xFFEB1555),
+              margin: EdgeInsets.only(top: 10.0),
+              width: double.infinity,
+              height: 80.0,
             ),
           ),
         ],
