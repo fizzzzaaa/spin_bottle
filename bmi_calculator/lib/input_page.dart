@@ -36,7 +36,7 @@ class InputPageState extends State<InputPage> {
                         selectGender=gender.male;
                       });
                     },
-                    colors: selectGender==gender.male?activeColor:deActivColor,
+                    colors: selectGender==gender.male? activeColor:deActivColor,
                     cardwidget: RefactorTextandIcon(
                       iconData:FontAwesomeIcons.person,
                       label: "Male",
@@ -51,7 +51,7 @@ class InputPageState extends State<InputPage> {
                         selectGender=gender.female;
                       });
                     },
-                    colors:selectGender==gender.female?activeColor:deActivColor,
+                    colors:selectGender==gender.female? activeColor:deActivColor,
                     cardwidget: RefactorTextandIcon(
                       iconData:FontAwesomeIcons.female,
                       label: "Female",
