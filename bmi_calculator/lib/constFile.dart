@@ -17,3 +17,8 @@ const CLabelStyle=TextStyle(
   fontSize: 25.0,
   fontWeight: FontWeight.bold,
 );
+
+const KTitleStyle=TextStyle(
+  fontSize: 50.0,
+  fontWeight: FontWeight.bold,
+);

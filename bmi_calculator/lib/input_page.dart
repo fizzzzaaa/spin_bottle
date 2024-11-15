@@ -3,6 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'IconText.dart';
 import 'ContainerFile.dart';
 import 'constFile.dart';
+import 'result.dart';
 
 enum gender{
   male,
@@ -194,7 +195,8 @@ class InputPageState extends State<InputPage> {
           ),
           GestureDetector(
             onTap: (){
-
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context)=>resultscreen()));
             },
             child: Container(
               child: Center(
