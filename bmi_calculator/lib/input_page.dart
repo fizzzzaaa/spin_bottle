@@ -4,8 +4,6 @@ import 'IconText.dart';
 import 'ContainerFile.dart';
 import 'constFile.dart';
 
-const activeColor = Color(0xFF1D1E33);
-const deActivColor = Color(0xFF111328);
 enum gender{
   male,
   female,
@@ -18,6 +16,7 @@ class InputPage extends StatefulWidget {
 
 class InputPageState extends State<InputPage> {
   gender? selectGender;
+  int sliderHeight=180;
 
   @override
   Widget build(BuildContext context) {
@@ -66,8 +65,39 @@ class InputPageState extends State<InputPage> {
           Expanded(
             child:RepeatRefactorCode(colors:Color(0xFF1D1E33), onPressed: () {  },
             cardwidget: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children:<Widget> [
-                Text('Height',style: KLabelStyle,),
+                SizedBox(
+                  width: 1000.0,
+                ),
+                Text('Height',
+                  style: KLabelStyle,),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Text(
+                      sliderHeight.toString(),
+                      style: HLablelStyle,
+                    ),
+                    Text(
+                      'cm',
+                      style: KLabelStyle,
+                    ),
+
+                  ],
+                ),
+                Slider(
+                  value: sliderHeight.toDouble(),
+                  min: 120.0,
+                  max: 220.0,
+                  activeColor: Color(0xFFEB1555),
+                  inactiveColor: Color(0xFF8D8E98),
+                  onChanged: (double newvalue){
+                    setState(() {
+                      sliderHeight=newvalue.round();
+                    });
+                  },
+                ),
               ],
             ),
             ),
