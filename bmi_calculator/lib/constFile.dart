@@ -22,3 +22,16 @@ const KTitleStyle=TextStyle(
   fontSize: 50.0,
   fontWeight: FontWeight.bold,
 );
+
+const kresultText=TextStyle(
+  fontSize: 20.0,
+  fontWeight: FontWeight.normal,
+  color: Colors.green
+);
+
+const kbmiStyle=TextStyle(
+  fontSize: 50.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kBodyStyle=TextStyle();

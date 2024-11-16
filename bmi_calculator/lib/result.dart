@@ -45,11 +45,25 @@ class resultscreen extends StatelessWidget {
                     style: kBodyStyle,
                   ),
                 ],
-              ),
+              ), onPressed: () {  },
             ),
           ),
           Expanded(
-
+             child: GestureDetector(
+  onTap: (){
+    Navigator.push(context,
+        MaterialPageRoute(builder: (context)=>resultscreen()));
+  },
+  child: Container(
+    child: Center(
+      child: Text('Calculate',style: CLabelStyle,),
+    ),
+    color: Color(0xFFEB1555),
+    margin: EdgeInsets.only(top: 10.0),
+    width: double.infinity,
+    height: 80.0,
+  ),
+),
           ),
         ],
 
